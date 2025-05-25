@@ -5,7 +5,7 @@ if (Number.isNaN(size) || size <= 0) {
   console.log('Missing size');
 } else {
   let i = 0;
-  const line = X.repeat(size);
+  const line = 'X'.repeat(size);
   while (i < size) {
     console.log(line);
     i++;
