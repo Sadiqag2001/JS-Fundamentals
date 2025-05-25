@@ -2,7 +2,7 @@ const args = process.argv.slice(2);
 const size = parseInt(args[0], 10);
 
 if (Number.isNaN(size) || size <= 0) {
-  console.log(Missing size);
+  console.log('Missing size');
 } else {
   let i = 0;
   const line = X.repeat(size);
